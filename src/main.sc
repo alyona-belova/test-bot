@@ -7,21 +7,18 @@ theme: /
         a: Начнём.
 
     state: /hello
-        intent!: /hello
+        q!: привет
         a: Привет!
-
+        
     state: /weather
-        intent!: /weather
+        q!: прогноз погоды
         a: Сегодня солнечно
         
     state: /currency
-        intent!: /currency
+        q!: курс валют
         a: Доллар 74 рубля, евро 97 рублей
 
     state: /NoMatch
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
 
-    state: Match
-        event!: match
-        a: {{$context.intent.answer}}
