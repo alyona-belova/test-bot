@@ -7,15 +7,15 @@ theme: /
         a: Начнём.
 
     state: /hello
-        intent!: /привет
+        intent!: /hello
         a: Привет!
 
     state: /weather
-        intent!: /прогноз
+        intent!: /weather
         a: Сегодня солнечно
         
     state: /currency
-        intent!: /курс
+        intent!: /currency
         a: Доллар 74 рубля, евро 97 рублей
 
     state: /NoMatch
